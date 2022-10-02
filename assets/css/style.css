@@ -1,3 +1,5 @@
+/* #region Common rules */
+
 *,
 ::after,
 ::before {
@@ -12,12 +14,22 @@ body {
   background-image: linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);
 }
+/* #endregion Common rules */
+
+/* #region utilities */
 
 .container {
   width: 1000px;
  margin: auto;
-
 }
+.d_flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* #endregion utilities */
+
+/* #region header */
 
 #title_bar {
   background-color: #646464;
@@ -28,3 +40,11 @@ body {
   margin-left: 10px;
   width: 360px;
 }
+
+/* #endregion header */
+
+/* #region main */
+/* #endregion main */
+
+/* #region footer */
+/* #endregion footer */
