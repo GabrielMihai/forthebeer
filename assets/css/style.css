@@ -1,27 +1,30 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
 body {
-    background-size: 2px 2px;
-    background-image: linear-gradient(to right, grey 1px, transparent 1px),
-      linear-gradient(to bottom, grey 1px, transparent 1px);
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
+  background-size: 2px 2px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
 
-  #container {
-    width: 1000px;
-    background-color: red;
-    height: 100vh;
-  }
+.container {
+  width: 1000px;
+ margin: auto;
 
-  #title_bar {
-    background-color: #646464;
-    width: 100%;
-  }
+}
 
-  #title_bar_image {
-    margin-top: 10px;
-    margin-left: 10px;
-  }
+#title_bar {
+  background-color: #646464;
+}
+
+#title_bar_image {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 360px;
+}
