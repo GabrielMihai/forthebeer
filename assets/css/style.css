@@ -81,6 +81,7 @@ header .subnav{
 nav li{
   display: inline-block;
   font-size: 0.75rem;
+  font-weight: bold;
 }
 
 ul{
