@@ -1,5 +1,12 @@
 /* #region Common rules */
 
+:root{
+  --clr-nav-g1: #E2B83F;
+  --clr-nav-g2: #BA921B;
+
+}
+
+
 *,
 ::after,
 ::before {
@@ -31,8 +38,9 @@ body {
 
 /* #region header */
 
-#title_bar {
+.title_bar {
   background-color: #646464;
+  width: 100%;
 }
 
 #title_bar_image {
@@ -41,8 +49,49 @@ body {
   width: 360px;
 }
 
-/* #endregion header */
+header nav{
+  padding-top: 2px;
+  height: 21px;
+  width: 100%;
+  background-image: linear-gradient(var(--clr-nav-g1),var(--clr-nav-g2));
+}
+header .subnav{
+  height: 2px;
+  width: 100%;
+  background-color: var(--clr-nav-g1);
+}
+.header_list{
+  height: 100%;
+  padding: 0.5rem 1rem;
+  color: white;
 
+}
+.point{
+  width: 7px;
+  aspect-ratio: 1/1;
+  background-image: linear-gradient(var(--clr-nav-g1),var(--clr-nav-g2));
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0.25rem;
+
+}
+
+nav li{
+  display: inline-block;
+  font-size: 0.75rem;
+}
+
+ul{
+  text-align: center;
+  list-style: none;
+}
+
+.blackLine{
+  height: 10px;
+  border-left: 1px solid black;
+  margin: 0 0.5rem;
+  background-color: black;
+}
 /* #region main */
 /* #endregion main */
 
