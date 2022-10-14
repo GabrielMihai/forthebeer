@@ -3,6 +3,8 @@
 :root{
   --clr-nav-g1: #E2B83F;
   --clr-nav-g2: #BA921B;
+  --clr-footer: #646464;
+  --clr-text-footer: #999999;
 
 }
 
@@ -96,4 +98,16 @@ ul{
 /* #endregion main */
 
 /* #region footer */
+
+footer{
+  margin-top: -4px;
+}
+footer .container{
+  height: 24px;
+  background-color: var(--clr-footer);
+  color: var(--clr-text-footer);
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 24px;
+}
 /* #endregion footer */
